@@ -1,0 +1,82 @@
+
+
+/* HEADER / NAV BAR STYLES START */
+
+header {
+    padding: 20px 20px 20px 0px;
+    background-color: #696969;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 9999;
+}
+  
+header h1 {
+    padding: 20px
+    font-weight: normal;
+    color: #696969;
+    background-color: #48d1cc;
+    margin: 0;
+    font-size: 36px;    
+}
+  
+header a {
+    text-decoration: none;
+}
+  
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    color: #48d1cc;
+    border-bottom: #48d1cc;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+/* HERO STYLES START */
+
+.hero {
+    /* Photo by Math from Pexels */
+    background-image: url('../images/pexels-math-21387.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-position: center;
+}
+
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 48px;
+    border-right: 3px solid;
+    color: #696969;
+    padding: 20px;
+    text-align: right;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+
+.about-info {
+    display: flex;
+}
+
+.about-info p {
+    font-size: 22px;
+    color: #696969;
+    padding: 0 0 0 40px;
+}
