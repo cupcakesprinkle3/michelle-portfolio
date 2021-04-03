@@ -12,7 +12,7 @@ header {
 }
   
 header h1 {
-    padding: 20px
+    padding: 20px;
     font-weight: normal;
     color: #696969;
     background-color: #48d1cc;
@@ -50,27 +50,52 @@ header nav ul li a {
     /* Photo by Math from Pexels */
     background-image: url('../images/pexels-math-21387.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
-    justify-content: right;
     flex-wrap: wrap;
-    align-items: flex-end;
     height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-position: center;
+    margin-bottom: 25px; 
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero-subtitle {
+    text-align: right;
+    margin: 3.5%;
+    color: white;
+    font-size: 18px;
+    line-height: 1;
 }
 
 /* SECTION TITLE STYLES START */
-.section-title {
+
+.content-block {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-block h2 {
     font-size: 48px;
     border-right: 3px solid;
     color: #696969;
-    padding: 20px;
+    padding: 25px;
     text-align: right;
-    margin: 0 auto 35px auto;
-    width: 50%;
-  }
+    flex: 0 20%;
+}
 
+.content-paragraph {
+    padding: 20px;
+    text-align: left;
+    color: #404040;
+    flex: 12;
+    list-style: none;
+}
 .about-info {
     display: flex;
 }
@@ -80,3 +105,5 @@ header nav ul li a {
     color: #696969;
     padding: 0 0 0 40px;
 }
+
+/* CASE STUDY PIC - Photo by Liza Summer from Pexels */
