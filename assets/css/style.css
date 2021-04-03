@@ -107,6 +107,7 @@ p {
 
 .first-work-img {
     position:relative;
+    padding-right: 20px;
 }
 
 .first-work-img img {
@@ -118,7 +119,7 @@ p {
 } 
 
 .first-work-img img:hover {
-    border: solid 15px darkgreen;
+    border: solid 15px lightskyblue;
     filter: brightness(120%);
 } 
 
@@ -135,7 +136,8 @@ p {
     width: 40%; /* Set the width of the positioned div */
 }
 
-/* Create styles for 2x2 images */
+/* Create styles for 2x2 images in Work List */
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +168,7 @@ p {
 }
 
 .box img:hover {
-    border: solid 15px darkgreen;
+    border: solid 15px lightskyblue;
     filter: brightness(120%);
 }
 
