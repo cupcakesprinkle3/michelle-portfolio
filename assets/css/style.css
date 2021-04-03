@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 /* HEADER / NAV BAR STYLES START */
 
@@ -62,48 +64,110 @@ header nav ul li a {
 
 .hero-subtitle {
     text-align: right;
-    margin: 3.5%;
     color: white;
     font-size: 18px;
-    line-height: 1;
+    background-color: #48d1cc;
+}
+
+h2 {
+    font-size: 48px;
+    border-right: 3px solid;
+    color: #696969;
+    padding: 25px;
+    text-align: right;
+}
+
+p {
+    padding: 20px;
+    color: #404040;
 }
 
 /* SECTION TITLE STYLES START */
 
 .content-block {
     margin: 50px auto;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.left-item {
+    display: flex;
+   /*  align-items: center;
+    justify-content: center; */
+}
+
+.right-items {
+    padding-left: 40px;
+  /*   justify-content: center;
+    align-items: center; */
+}
+ 
+.first-work-img img {
     width: 100%;
+    background-size: cover;
+    border: solid 15px #48d1cc;
+    margin: 10px;
+} 
+
+.first-work-img img:hover {
+    border: solid 15px yellowgreen;
+} 
+
+.container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
 }
 
-.content-block h2 {
-    font-size: 48px;
-    border-right: 3px solid;
-    color: #696969;
-    padding: 25px;
-    text-align: right;
-    flex: 0 20%;
+.box {
+    width: 50%;
+    position: relative;
 }
 
-.content-paragraph {
-    padding: 20px;
+/* Credit to this tutorial for how to add text on top of an image - https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php#:~:text=Answer%3A%20Use%20the%20CSS%20position,the%20element) */
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
     text-align: left;
-    color: #404040;
-    flex: 12;
+    color: #696969;
+    background-color: #48d1cc;
+    width: 40%; /* Set the width of the positioned div */
+}
+
+.box img {
+    border: solid 15px #48d1cc;
+}
+
+.box img:hover {
+    border: solid 15px yellowgreen;
+}
+
+/* Credit to this solution on Stack O for how to do a 2x2 box - https://stackoverflow.com/questions/55174404/how-to-make-2x2-image-grid-css */
+.container img {
+    width: calc(100% - (10px * 2));
+    margin: 10px;
+}
+
+.right-items ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
-.about-info {
-    display: flex;
-}
 
-.about-info p {
-    font-size: 22px;
+/* TRIED P STYLE AND IT WORKED */
+.box-cover-case-studies {
+    background-image: url('../images/pexels-liza-summer-6347910 (1).jpg');
+    background-size: cover;
+    background-position: 80%;
     color: #696969;
-    padding: 0 0 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 100px;
 }
 
-/* CASE STUDY PIC - Photo by Liza Summer from Pexels */
+/* Credit - CASE STUDY PIC - Photo by Liza Summer from Pexels */
