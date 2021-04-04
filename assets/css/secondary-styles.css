@@ -1,0 +1,61 @@
+/* SECONDARY PAGE STYLES, CREDIT - HEAVILY USED RUN BUDDY SECONDARY STYLES*/
+
+.hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.page-title {
+    padding: 0 80px 15px 80px;
+    font-size: 42px;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+    border-right: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.secondary-h1 {
+    text-decoration: none;
+}
+
+.secondary-content {
+    width: 80%;
+    margin: 0 auto;
+    color: #696969;
+}
+  
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+  
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 0 0;
+}
+  
+.secondary-content ul {
+    margin: 15px 20px;
+}
+  
+.secondary-content ul li {
+    color: #696969;
+    margin: 10px 0;
+}
+
+.secondary-content ul li a {
+    color: darkslateblue;
+    margin: 10px 0;
+}
+
+.secondary-content p a {
+    color: darkslateblue;
+}
