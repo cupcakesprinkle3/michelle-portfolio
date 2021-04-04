@@ -4,3 +4,4 @@ As part of UC Berkeley Extension Coding Bootcamp, we were asked to make an onlin
 ### Project Mockup from UC Berkeley
 https://user-images.githubusercontent.com/79061264/113517266-b6f03b80-9533-11eb-9a9c-dace66187a3a.png
 ### Screenshot from My Online Portfolio
+https://user-images.githubusercontent.com/79061264/113517309-f9b21380-9533-11eb-93a2-6abecba73eb9.png
